@@ -13,10 +13,16 @@ cout<<"please enter a:";
 cin>>a;
    if (a>0)
    {
-    cout<<"please enter b:";
+l16:cout<<"please enter b:";
     cin>>b;
+    if (b==0)
+    {
+        cout<<"Can't divide by zero"<<endl;
+        goto l16;
+    }
     goto line25;
-   }
+
+    }
     else 
     cout<<"please enter larger then '0'"<<endl<<endl;
     goto line11;
