@@ -13,7 +13,7 @@ cout<<"please enter a:";
 cin>>a;
    if (a>0)
    {
-    cout<<"please enter b:";
+l16:cout<<"please enter b:";
     cin>>b;
     goto line25;
    }
