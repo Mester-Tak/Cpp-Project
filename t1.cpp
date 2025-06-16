@@ -21,7 +21,6 @@ l16:cout<<"please enter b:";
         goto l16;
     }
     goto line25;
-
     }
     else 
     cout<<"please enter larger then '0'"<<endl<<endl;
